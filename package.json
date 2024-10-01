@@ -1,0 +1,41 @@
+{
+  "name": "event-ticket-booking-system---great-brand-nigeria-limited",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^11.0.6",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "winston": "^3.14.2",
+    "winston-console-format": "^1.0.8"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "eslint": "^9.11.1",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
